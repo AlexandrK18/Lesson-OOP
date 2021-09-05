@@ -104,6 +104,12 @@ cool_reviewer.courses_attached += ['Python']
 
 cool_reviewer2 = Reviewer('Kelly', 'Collins')
 cool_reviewer2.courses_attached += ['Git']
+
+cool_lecturer = Lecturer('Some', 'Buddy')
+cool_lecturer.courses_attached += ['Python']
+
+cool_lecturer2 = Lecturer('Johnson ', 'Moralis')
+cool_lecturer2.courses_attached += ['Python']
  
 cool_reviewer.rate_hw(best_student, 'Python', 9)
 cool_reviewer.rate_hw(best_student, 'Python', 9)
@@ -124,12 +130,6 @@ cool_reviewer2.rate_hw(best_student2, 'Git', 10)
 cool_reviewer2.rate_hw(best_student2, 'Git', 9)
 cool_reviewer2.rate_hw(best_student2, 'Git', 10)
 cool_reviewer2.rate_hw(best_student2, 'Git', 10)
-
-cool_lecturer = Lecturer('Some', 'Buddy')
-cool_lecturer.courses_attached += ['Python']
-
-cool_lecturer2 = Lecturer('Johnson ', 'Moralis')
-cool_lecturer2.courses_attached += ['Python']
  
 best_student.rate_lect(cool_lecturer, 'Python', 10)
 best_student.rate_lect(cool_lecturer, 'Python', 10)
